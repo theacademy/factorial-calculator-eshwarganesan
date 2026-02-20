@@ -43,7 +43,6 @@ public class Factorial {
             } else {
                 this.printStream.print("Invalid entry. Please enter an integer between 1 and 10, inclusive.");
             }
-
             return -1;
         } catch (InputMismatchException e) {
             this.printStream.print("Invalid entry. Please enter an integer between 1 and 10, inclusive.");
