@@ -39,7 +39,7 @@ public class Factorial {
         if (num > 0 && num < 11) {
             return num;
         } else {
-           this.printStream.print("Invalid entry. Please enter an integer between 1 and 10, inclusive");
+           this.printStream.print("Invalid entry. Please enter an integer between 1 and 10, inclusive.");
         }
 
 		return -1;
